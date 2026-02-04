@@ -30,6 +30,6 @@ class SendWelcomeEmail implements ShouldQueue
         //
          //Mail::to('krishanu.kisan@gmail.com')->send(new WelcomeMail('Sagnik'));
          \Log::info('Email sent in background');
-         //test// 1234 //
+         //test// 1234 // 5678
     }
 }
